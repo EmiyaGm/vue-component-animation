@@ -3,6 +3,7 @@ import GradientArrow from '@/components/GradientArrow.vue'
 import HaloPoint from '@/components/HaloPoint.vue'
 import DisappearBubble from '@/components/DisappearBubble.vue'
 import CircleLoading from '@/components/CircleLoading.vue'
+import AnchorUnderline from '@/components/AnchorUnderline.vue'
 </script>
 
 <template>
@@ -23,6 +24,10 @@ import CircleLoading from '@/components/CircleLoading.vue'
     <h3 class="py-7">4.旋转拖尾Loading</h3>
     <div class="py-7 w-full border border-white flex items-center justify-center">
       <CircleLoading></CircleLoading>
+    </div>
+    <h3 class="py-7">5.文字底部hover underline</h3>
+    <div class="py-7 w-full border border-white flex items-center justify-center">
+      <AnchorUnderline></AnchorUnderline>
     </div>
   </main>
 </template>
